@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from "react";
 import CountryCard from "./CountryCard";
 import CountryListShimmer from "./CountryListShimmer";
-// import CountriesData from '../CountriesData'
 
-CountriesList = ({ query }) => {
+const CountriesList = ({ query }) => {
   const [CountriesData, setCountriesData] = useState([]);
  
 
