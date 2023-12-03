@@ -8,7 +8,7 @@ const Header = ({}) => {
     <>
        <header className={`header-container ${isdark? 'dark':''}`}>
       <div className="header-content">
-        <h2 className="title"><a href="/">Where in the world?</a></h2>
+        <h2 className="title"><a href="/">Where in the worlds?</a></h2>
         <p className="theme-changer" onClick={()=>{
           //  document.body.classList.toggle('dark')
            setisdark(!isdark)
